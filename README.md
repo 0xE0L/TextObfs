@@ -37,5 +37,5 @@ As you will see in PoCs you can combine 2 methods, for example by obfuscating a 
 
 As of April 2021 I checked my 3 PoCs variants after [FLOSS](https://github.com/fireeye/flare-floss) and IDA-Pro, and both of them were able to statically retrieve the string for every variant. As discussed below, it means this is far from being a strong obfuscation method.
 
-If you wanted a stronger obfuscation method in binaries (not shellcode), I'll suggest using classical methods using some "cipher" algorithms (XOR, RC4) and a key stored in a uninitialized variable (.bss section). The key would be written in the variable at execution time using an heavily obufscated function (with [OLLVM](https://github.com/obfuscator-llvm/obfuscator) for example).
+If you wanted a stronger obfuscation method in binaries (not shellcode), I'll suggest using classical methods using some "cipher" algorithms (XOR, RC4) and a key stored in an uninitialized variable (.bss section). The key would be written in the variable at execution time using an heavily obufscated function (with [OLLVM](https://github.com/obfuscator-llvm/obfuscator) for example).
 Thus it would be much harder to statically retrieve the key and the string, even using tools automating this task.
