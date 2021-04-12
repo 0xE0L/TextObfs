@@ -1,6 +1,6 @@
 # TextObfs
 
-TextObfs is a little project to assist you in obfuscating strings that will be directly hardcoded in instructions (in .text section), thus throwing away the need to use variables or .data/.bss section of a binary.
+TextObfs is a simple script to assist you in obfuscating strings that will be directly hardcoded in instructions (in .text section), thus throwing away the need to use variables or .data/.bss section of a binary.
 
 ## Purpose
 
