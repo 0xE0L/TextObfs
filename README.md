@@ -11,7 +11,7 @@ It can obfuscate a string by returning it as (obfuscated) numbers, but also undo
 Please note it remains up to the user to include obfuscated numbers (representing the string) in its program/shellcode and do the on-the-fly deobufscation job. It's not TextObfs job to automatically generate a corresponding source code, binary or shellcode including your strings. However, examples/PoCs are provided with the repository to help you understand what you can do with that.
 
 Please note the obfuscation level here remains low as we will see in the detection section.
-It will bypass automated scanning of strings (like `strings` command), but any beginner reverser or simple string deobfuscator will easily retrieve the obfuscated strings.
+It will bypass simple scanning of strings (like `strings` command), but any beginner reverser or simple string deobfuscator will easily retrieve the obfuscated strings.
 
 ## Example
 
