@@ -15,7 +15,7 @@ It will bypass simple scanning of strings (like `strings` command), but any begi
 
 ## Example
 
-To obfuscate a string using XOR method, use the command: `./text_obfs.py -s "My_S3cr3t_String" -m neg -a 64`.\
+To obfuscate a string using XOR method, use the command: `./text_obfs.py -m xor -a 64 -s "My_S3cr3t_String" -k deadbeefdeadbeef`.\
 Output:
 ```
 [*] 0x997295bdc88961ef    |ß$R+ßG|
